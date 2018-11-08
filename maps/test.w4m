@@ -1,0 +1,65 @@
+// Lines starting with double slashes are comments
+
+name=Test
+description=To see if this works
+width=40
+height=40
+
+// value of border in the following line must be set to either "solid" or "air"
+border=solid
+
+// The map data follows the open bracket. Each row must begin and end with a single quote
+// There must be a closing bracket after the last row of the map.
+(
+'                                        '
+'                                        '
+'                                        '
+'                                        '
+'                                        '
+'                                        '
+'                                        '
+'                                        '
+'                                        '
+'                                        '
+'                                        '
+'                                        '
+'                                        '
+'                                        '
+'                                        '
+'                                        '
+'                                        '
+'                                        '
+'                                        '
+'          ttttttt                       '
+'          t~~~~~t                       '
+'          t~~~~~t                       '
+'          t~~~~~t                       '
+'          t~~~~~tttttttttttttttttt      '
+'          t~~~~~~~~~~~~~~~~~~~~~~t      '
+'          tttttttttttttttttttttt~t      '
+'                               t~t      '
+'                               t t      '
+'         tttttttt                       '
+'        tt~~~~~~tt                      '
+' w     tt~~~~~~~~tt                     '
+'      tt~~~~~~~~~~tt                    '
+'ttt  tttttttt ttttttt    tt             '
+'ttt                      tt             '
+'                         tt    t t      '
+'                         tt             '
+'                         tt             '
+'                         tt             '
+'~~~~~~~~~~~~~~~~~~~~~~~~~tt~~~~~~~~~~~~~'
+'~~~~~~~~~~~~~~~~~~~~~~~~~tt~~~~~~~~~~~~~'
+)
+
+// Legend:
+// ' ' : air
+// 'w' : air, start point
+// 't' : solid tile
+// '-' : platform (moves horizontally)
+// '|' : platform (moves vertically)
+// '^' : spikes
+// '!' : spring
+// 'x' : crumble tile
+// 'd' : door

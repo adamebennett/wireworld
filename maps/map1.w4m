@@ -1,0 +1,65 @@
+// Lines starting with double slashes are comments
+
+name=Map1
+description=Welcome to Wireworld!
+width=40
+height=40
+
+// value of border in the following line must be set to either "solid" or "air"
+border=solid
+
+// The map data follows the open bracket. Each row must begin and end with a single quote
+// There must be a closing bracket after the last row of the map.
+(
+'          tttttt                        '
+'          vvvvvv                        '
+'                                        '
+'                                        '
+'                                        '
+'                                        '
+'                                        '
+'                               d        '
+'                                        '
+'       tttttttttttttttttxxttttttt       '
+'       tttttttttttttttttxxttttttt       '
+'                                        '
+'                                        '
+'                                        '
+'                                        '
+'                                        '
+'                                        '
+'                                        '
+'                                        '
+'    !                                   '
+'  ttttt-             - tttt             '
+'  ttttt                tttt             '
+'                                        '
+'                                        '
+'                                        '
+'                                        '
+'                                 !      '
+'                             tttttt     '
+'                             tttttt     '
+'                                        '
+'                                        '
+'                                        '
+'                          |             '
+'                                        '
+'                                        '
+' w   tt             -  tt               '
+'     tt                tt               '
+'ttt                                     '
+'ttt                                     '
+'ttt^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+)
+
+// Legend:
+// ' ' : air
+// 'w' : air, start point
+// 't' : solid tile
+// '-' : platform (moves horizontally)
+// '|' : platform (moves vertically)
+// '^' : spikes
+// '!' : spring
+// 'x' : crumble tile
+// 'd' : door
